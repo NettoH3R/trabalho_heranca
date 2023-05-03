@@ -32,7 +32,7 @@ public class Aluno extends Pessoa {
         System.out.println("Idade do Aluno: " + getIdade());
         System.out.println("Endereço do aluno: " + getEndereco());
         System.out.println("Curso do Aluno: " + getCurso());
-        System.out.println("Senestre atual: " + getSemestre());
+        System.out.println("Semestre atual: " + getSemestre() + "\n");
 
         
     }
