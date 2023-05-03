@@ -19,17 +19,17 @@ public class Pessoa{
         return nome;
     }
     
-    public void getEndereco(String endereco){
-        this.endereco = endereco;
+    public String getEndereco(){
+        return endereco;
     }
 
-    public void getIdade(int idade){
-        this.idade = idade;
+    public int getIdade(){
+        return idade;
     }
 
     public Pessoa(String nome, int idade, String endereco){
-        getNome(nome);
-        getIdade(idade);
-        getEndereco(endereco);
+        this.nome = nome;
+        this.idade = idade;
+        this.endereco = endereco;
     }
 }
